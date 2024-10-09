@@ -77,27 +77,27 @@
             const viewport = document.querySelector("meta[name=viewport]");
             if (window.innerWidth < 660) {
                 // For small screens, set a smaller initial scale
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.2");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.2, user-scalable=yes");
             }else if(window.innerWidth < 777){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.4");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.4, user-scalable=yes");
             } 
             else if(window.innerWidth < 850){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.5");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.5, user-scalable=yes");
             }else if(window.innerWidth < 1109){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.6");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.6, user-scalable=yes");
             }
             else if(window.innerWidth < 1124){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.7");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.7, user-scalable=yes");
             }
             else if(window.innerWidth < 1340){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.8");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.8, user-scalable=yes");
             }
             else if(window.innerWidth < 1406){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.9");
+                viewport.setAttribute("content", "width=device-width, initial-scale=0.9, user-scalable=yes");
             } 
             else {
                 // For larger screens, set the default scale
-                viewport.setAttribute("content", "width=device-width, initial-scale=1.0");
+                viewport.setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=yes");
             }
         }
         // Run the function when the page loads
